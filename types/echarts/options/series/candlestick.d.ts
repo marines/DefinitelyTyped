@@ -656,7 +656,7 @@ declare namespace echarts {
              *
              * @see https://ecomfe.github.io/echarts-doc/public/en/option.html#series-candlestick.data
              */
-            data?: (number | SeriesCandlestick.DataObject)[][];
+            data?: (number[] | SeriesCandlestick.DataObject)[];
 
             /**
              * Mark point in a chart.
